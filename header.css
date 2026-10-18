@@ -1,16 +1,16 @@
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    border:solid rgba(255, 255, 255, 0.121) 1px;
+    border: solid rgba(255, 255, 255, 0.121) 1px;
     width: 80%;
     margin: 0 auto;
 }
+
 .header h3 {
     color: #44db29;
-    font-weight:100;
+    font-weight: 100;
     letter-spacing: 1.4;
     font-size: 0.8rem;
 }
@@ -24,10 +24,51 @@
     background-color: #44db29;
     border-radius: 50%;
 }
+
 .header-button {
     color: #44db29;
     background-color: transparent;
     border-radius: 20px;
     border: solid #44db29 1px;
     padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#flash-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: solid #44db29 1px;
+    margin-right: 7px;
+    animation: blink 1s ease-in-out infinite;
+}
+
+#logo-div:hover {
+    box-shadow: 0 0 15px 3px #44db29;
+}
+
+#logo-div svg:hover {
+    animation: rotate 0.5s alternate;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+@keyframes blink {
+    0% {
+        background-color: #44db292d;
+
+    }
+
+    100% {
+        background-color: #44db29;
+    }
 }

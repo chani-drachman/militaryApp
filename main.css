@@ -13,6 +13,28 @@
     align-items: center;
     padding:0 30px ;
 }
+.scan-section:hover {
+border: solid #44db29 1px;
+}
+.green-dot {
+    position: absolute;
+     width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #44db29; 
+}
+#green-dot1 {
+    top: 70px;
+    right: 70px;
+}
+#green-dot2 {
+    top: 140px;
+    right: 150px;
+}
+#green-dot3 {
+    top: 160px;
+    right: 70px;
+}
 .signals-div {
     display: flex;
     flex-direction: column;
@@ -50,6 +72,12 @@
     border: solid rgba(255, 255, 255, 0.121) 1px;
     background-color:#15121e;
     margin-right: 8px;
+    transition: transform 0.3s;
+}
+.body-button:hover{
+    border: solid #44db29 1px;
+    background-color: #44db2942;
+    transform:translateY(-5px) ;
 }
 .body-button svg {
     margin-right: 3px;
@@ -75,8 +103,15 @@
     border-left: solid #fac637f2 5px;
      border-radius: 20px;
  width:23%;
+ transition: transform 0.3s;
 
 }
+.wrap-div:hover{
+    border: solid #44db29 1px;
+    transform: rotate(3deg);
+
+}
+
 .top-div {
     display: flex;
     justify-content: space-between;
@@ -141,6 +176,9 @@
     padding: 10px;
     background-color: #9b29463e;
     font-weight: bold;
+}
+.threat-button:hover{
+    background-color: #9b294686;
 }
 .red-circle {
     width: 6px;
