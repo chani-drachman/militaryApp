@@ -1,0 +1,150 @@
+
+.scan-section {
+    background-color: #15121e;
+    border: solid rgba(255, 255, 255, 0.121) 1px;
+    border-radius: 40px;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px ;
+}
+.signals-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+.signals-div h1 {
+    color: #44db29;
+    font-weight: lighter;
+    text-align: left;
+    width: 100%;
+
+}
+.signals-div span {
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+    width: 100%;
+}
+.buttons-section {
+    width: 80%;
+    display: flex;
+    padding-left: 5px;
+    justify-content: flex-start;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.body-button {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid rgba(255, 255, 255, 0.121) 1px;
+    background-color:#15121e;
+    margin-right: 8px;
+}
+.body-button svg {
+    margin-right: 3px;
+}
+.cards-section {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between; 
+}
+.cards-section .wrap-div:nth-child(odd){
+    border-left: solid #44db29 5px ;
+    border-radius: 20px;
+}
+.card {
+ border: solid rgba(255, 255, 255, 0.121) 1px;
+ border-radius: 20px;
+ padding: 10px 20px;
+
+}
+.wrap-div {
+    border-left: solid #fac637f2 5px;
+     border-radius: 20px;
+ width:23%;
+
+}
+.top-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.top-div span{
+    font-size: 0.8rem;
+    color:  rgba(255, 255, 255, 0.326) ;
+}
+.range-div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.range-div input {
+    accent-color: #44db29;
+    width: 100%;
+    margin-right: 3px;
+}
+.range-div span {
+    color: #44db29;
+    font-size: 0.8rem;
+}
+.red-tag {
+    border-radius: 15px;
+    border: solid #9b2945 1px;
+    color: #9b2945;
+    padding: 10px;
+    background-color: #9b29463e;
+    font-size: 0.7rem;
+}
+.orange-tag {
+    border-radius: 15px;
+    border: solid #fac637f2 1px;
+    color: #fac637f2;
+    padding: 10px;
+    background-color: #fac63750;
+    font-size: 0.7rem;
+}
+.green-tag {
+    border-radius: 15px;
+    border: solid #44db29 1px;
+    color: #44db29;
+    padding: 10px;
+    background-color: #44db2954;
+    font-size: 0.7rem;
+}
+.threat-section {
+        width:80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+
+}
+.threat-button {
+    width:100%;
+       border-radius: 10px;
+    border: solid #9b2945 1px;
+    color: #9b2945;
+    padding: 10px;
+    background-color: #9b29463e;
+    font-weight: bold;
+}
+.red-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #9b2945;
+}

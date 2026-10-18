@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #09090e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: solid rgba(255, 255, 255, 0.121) 1px;
+    position: relative;
+    
+}
+nav {
+    
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item span {
+color: #999999;
+font-size: 0.8rem;
+}
+#questiom-mark-div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #9999992a;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
