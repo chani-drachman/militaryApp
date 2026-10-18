@@ -176,9 +176,11 @@ border: solid #44db29 1px;
     padding: 10px;
     background-color: #9b29463e;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
 }
 .threat-button:hover{
     background-color: #9b294686;
+    transform: scale(1.05);
 }
 .red-circle {
     width: 6px;

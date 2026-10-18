@@ -34,6 +34,9 @@
     display: flex;
     align-items: center;
 }
+.header-button:hover{
+background-color: #44db2930;
+}
 
 #flash-dot {
     width: 4px;
